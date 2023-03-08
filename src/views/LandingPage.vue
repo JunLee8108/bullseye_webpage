@@ -7,17 +7,12 @@
                 <p>Groceries Made Easy</p>
                 <br />
                 <center>
-                    <v-btn @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" 
-                        color="white">Learn More</v-btn>
+                    <v-btn @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" color="white">Learn
+                        More</v-btn>
                 </center>
                 <br />
                 <br />
                 <br />
-                <center>
-                <img src="img/Bullseye.png" width="300px" height="300px">
-            </center>
-            
-
             </div>
         </div>
     </div>
@@ -85,7 +80,7 @@ video {
 .text {
     position: absolute;
     width: 100%;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -135,7 +130,7 @@ video {
 }
 
 .learnMoreButton {
-    
+
     font-weight: bold;
 }
 
