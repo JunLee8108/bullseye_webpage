@@ -5,13 +5,6 @@
             Home
         </v-btn>
         <v-divider></v-divider>
-        <!-- <v-toolbar flat height="72">
-            <v-switch
-              v-model="$vuetify.theme.dark"
-              inset
-              label="Vuetify Theme Dark"
-            ></v-switch>
-          </v-toolbar> -->
     </div>
 </template>
 
