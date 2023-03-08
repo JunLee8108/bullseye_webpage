@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg">
-            <video muted autoplay loop src="video/market.mp4"></video>
+            <video muted autoplay loop playsinline src="video/market.mp4"></video>
             <div class="text">
                 <h1><span class="chromeColor">Bullseye</span> for Chrome</h1>
                 <p>Groceries Made Easy</p>
@@ -52,14 +52,6 @@ export default {
 </script>
 
 <style scoped>
-body {
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    background-color: #b92b27;
-    background-image: linear-gradient(to right, #1565C0, #b92b27);
-}
-
 .chromeColor {
     color: red;
 }
@@ -105,18 +97,36 @@ video {
 /*------------------*/
 /* Layout (No Edit) */
 /*------------------*/
-@media(max-width:664px) {
+@media screen and (max-width: 600px) {
     .bg {
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
-    video {
-        height: 400px;
+    .text {
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
+    .text h1 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    
     .text p {
-        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
     }
+
 }
 
 .name {
