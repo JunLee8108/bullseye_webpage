@@ -5,15 +5,16 @@
             <div class="text">
                 <h1><span class="chromeColor">Bullseye</span> for Chrome</h1>
                 <p>Groceries Made Easy</p>
+                <br />
                 <center>
                     <v-btn @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" 
-                        color="#grey">Learn More</v-btn>
+                        color="white">Learn More</v-btn>
                 </center>
                 <br />
                 <br />
                 <br />
                 <center>
-                <img src="img/Bullseye.png" width="250px" height="250px">
+                <img src="img/Bullseye.png" width="300px" height="300px">
             </center>
             
 
@@ -84,7 +85,7 @@ video {
 .text {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
