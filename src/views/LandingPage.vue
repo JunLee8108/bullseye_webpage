@@ -1,13 +1,13 @@
 <template>
     <div>
         <div class="bg">
-            <video muted autoplay loop src="video/market.mp4"></video>
+            <video muted autoplay loop src="video/cooking.mov"></video>
             <div class="text">
                 <h1><span class="chromeColor">Bullseye</span> for Chrome</h1>
                 <p>Groceries Made Easy </p>
                 <br/>
                 <center>
-                    <v-btn x-large @click="moveAbout()" class="learnMoreButton" elevation="3" height="50px" rounded
+                    <v-btn x-large @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" rounded
                         color="#grey">Learn More</v-btn>
                 </center>
             </div>
@@ -77,15 +77,15 @@ video {
 .text {
     position: absolute;
     width: 100%;
-    top: 46%;
-    left: 50%;
+    top: 53%;
+    left: 52%;
     transform: translate(-50%, -50%);
 }
 
 .text h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 50px;
+    font-size: 48px;
     color: #ffffff;
 }
 
@@ -94,7 +94,7 @@ video {
     font-style: italic;
     text-align: center;
     font-weight: bold;
-    font-size: 33px;
+    font-size: 31px;
     color: #ffffff;
 }
 
