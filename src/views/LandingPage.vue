@@ -1,15 +1,22 @@
 <template>
     <div>
         <div class="bg">
-            <video muted autoplay loop src="video/cooking.mov"></video>
+            <video muted autoplay loop src="video/market.mp4"></video>
             <div class="text">
                 <h1><span class="chromeColor">Bullseye</span> for Chrome</h1>
-                <p>Groceries Made Easy </p>
-                <br/>
+                <p>Groceries Made Easy</p>
                 <center>
-                    <v-btn x-large @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" rounded
+                    <v-btn @click="moveAbout()" class="learnMoreButton" elevation="3" height="48px" 
                         color="#grey">Learn More</v-btn>
                 </center>
+                <br />
+                <br />
+                <br />
+                <center>
+                <img src="img/Bullseye.png" width="250px" height="250px">
+            </center>
+            
+
             </div>
         </div>
     </div>
@@ -55,7 +62,7 @@ body {
     overflow: hidden;
     background-color: #b92b27;
     background-image: linear-gradient(to right, #1565C0, #b92b27);
-  }
+}
 
 .chromeColor {
     color: red;
@@ -77,15 +84,15 @@ video {
 .text {
     position: absolute;
     width: 100%;
-    top: 53%;
-    left: 52%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .text h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 48px;
+    font-size: 46px;
     color: #ffffff;
 }
 
@@ -127,7 +134,7 @@ video {
 }
 
 .learnMoreButton {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     font-weight: bold;
 }
 
@@ -156,4 +163,5 @@ video {
     font-size: 1.5rem;
     padding: 2rem;
     border-radius: 1rem;
-}</style>
+}
+</style>
